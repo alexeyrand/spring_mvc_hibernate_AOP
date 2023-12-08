@@ -19,13 +19,16 @@ public class Employee {
     @Column(name = "salary")
     private int salary;
 
-    public Employee() {}
+    public Employee() {
+        System.out.println("def constructor");
+    }
 
     private Employee(String name, String surname, String department, int salary) {
         this.name = name;
         this.surname = surname;
         this.department = department;
         this.salary = salary;
+        System.out.println("Emp is created from new constructor");
     }
 
     public int getId() {
