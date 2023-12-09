@@ -67,6 +67,19 @@
       <version>6.1.6.Final</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.20.1</version>
+      <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjrt</artifactId>
+      <version>1.9.19</version>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>spring_mvc_hibernate_AOP</finalName>
